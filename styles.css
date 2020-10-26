@@ -1,4 +1,5 @@
 body {
+    color: #40514E;
     margin: 0;
     text-align: center;
     font-family: 'Gelasio', serif;
@@ -22,6 +23,7 @@ h2 {
     font-family: 'Titillium Web', sans-serif;
     font-size: 2.5rem;
     font-weight: normal;
+    padding-bottom: 10px;
 
 }
 
@@ -32,18 +34,62 @@ h3 {
 
 p {
     color: #40514E;
+    line-height: 2;
 }
 
 hr {
-    border-style: dotted;
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 80px auto;
+
+    /* border-style: dotted;
     border-width: 0 0 7px 0;
     height: 2px;
-    width: 4%;
-    color: grey;
+    
+    color: grey; */
+}
+a {
+    color: #11999E;
+     font-family: 'Gelasio',serif;
+     margin: 10px 20px;
+     text-decoration: none;
+    
+}
+a:hover {
+    color: #eaf6f6;
+}
+.middle-container {
+    margin: 100px 0;
+}
+.intro {
+    width: 30%;
+    margin: auto;
+    
+}
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
 }
 
-.middle-container {}
-
+.copyright {
+    color: #eaf6f6;
+    font-size: .75rem;
+    /* padding: 20px 0; */
+}
+.btn {
+    text-decoration: none;
+    background-color: #11cdd4;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 8%;
+    text-align: center;
+}
+.btn:hover {
+    background: #3c6964a6;
+    text-decoration: none;
+}
 .bottom-container {}
 
 .skill-row {
@@ -59,14 +105,14 @@ hr {
 
 .bottom-cloud {
     position: absolute;
-    left: 300px;
+    left: 200px;
     bottom: 300px;
 }
 
 .top-cloud {
     position: absolute;
     right: 300px;
-    top: 50px;
+    top: 40px;
 }
 
 .code-img {
@@ -82,3 +128,9 @@ hr {
 }
 
 .code-skill-description {}
+
+footer {
+    background-color: #66bfbf;
+    padding: 20px;
+
+}
